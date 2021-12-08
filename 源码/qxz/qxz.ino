@@ -37,7 +37,8 @@ String  keys  = "此处填入和风天气api_key";  // 接口地址：https://co
 String  dq  = "101010100"; //填入城市编号  获取编号 https://where.heweather.com/index.html
 
 
-
+//ESP8266-12  D1(GPIO5)/D2(GPIO4) => SDA/SCL
+//ESP8266-01  Tx(GPIO1)/Rx(GPIO3) => SDA/SCL
 #define sck D1 /* 屏幕 */
 #define sda D2
 
